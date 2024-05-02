@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 body {
-  width: 1440px;
+  max-width: 1440px;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
@@ -16,7 +16,6 @@ body {
   margin: 0 auto;
 }
 .page {
-  width: 100%;
   background: url(./images/hero.png) no-repeat;
   background-position: 26.25rem -3rem;
 }
