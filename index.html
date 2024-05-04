@@ -3,7 +3,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta content="width=1180" name="viewport" id="viewport">
+    <meta
+      content="width=1180"
+      name="viewport"
+      id="viewport"
+    />
     <title>БЭМ</title>
     <link
       rel="preconnect"
@@ -25,171 +29,209 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
-        <div class="header__content content">
-          <div class="header__navigation">
-            <nav class="header__menu menu">
-                <a class="menu__link" href="/">
-                    Home
-                  </a>
-                  <a class="menu__link" href="/about">
-                    About
-                  </a>
-                  <a class="menu__link" href="/contact">
-                    Contact
-                  </a>
-              </a>
-            </nav>
+      <div class="page__header">
+        <header class="header">
+          <div class="header__content content">
+            <div class="header__navigation">
+              <nav class="site-navigation">
+                <a
+                  class="site-navigation__link"
+                  href="/"
+                >
+                  Home
+                </a>
+                <a
+                  class="site-navigation__link"
+                  href="/about"
+                >
+                  About
+                </a>
+                <a
+                  class="site-navigation__link"
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </nav>
+            </div>
+            <h2 class="header__titile title">Landing</h2>
+            <div class="header__btn">
+              <a class="btn btn_black">Buy Now</a>
+            </div>
           </div>
-          <h2 class="header__titile title">Landing</h2> 
-          <div class="header__btn">
-            <a class="btn btn_black">Buy Now</a>
-          </div>
-        </div>
+      </div>
       </header>
       <main class="main">
-        <section class="hero">
-          <div class="hero__content content">
-            <div class="hero__text-container">
-              <h1 class="hero__title title">Introduce Your Product Quickly & Effectively</h1>
-              <p class="hero__text text">
+        <section class="main__hero">
+          <div class="hero">
+            <div class="hero__content content">
+              <div class="hero__text-container">
+                <h1 class="hero__title title">
+                  Introduce Your Product Quickly & Effectively
+                </h1>
+                <p class="hero__text text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                  commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                  penatibus et magnis dis parturient montes, nascetur ridiculus<br />
+                  <br />
+                  mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                  quis, sem. Nulla consequat massa quis enim.
+                </p>
+                <div class="hero__btns">
+                  <a class="btn btn_black">Purchase UI Kit</a>
+                  <a class="btn btn_light">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__demo">
+          <div class="demo">
+            <div class="demo__content content">
+              <div class="demo__body-container">
+                <div class="demo__text-container">
+                  <h2 class="demo__title title">Light, Fast & Powerful</h2>
+                  <p class="demo__text text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus <br />
+                    <br />
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                    quis, sem. Nulla consequat massa quis enim.
+                  </p>
+                </div>
+                <div class="demo__cards">
+                  <div class="demo__card">
+                    <img
+                      class="demo__card__icon"
+                      src="./images/icons/combined_shape.svg"
+                    />
+                    <h3 class="demo__card__title title">Title Goes Here</h3>
+                    <p class="demo__card__text text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor.
+                    </p>
+                  </div>
+                  <div class="demo__card">
+                    <img
+                      class="demo__card__icon"
+                      src="./images/icons/combined_shape.svg"
+                    />
+                    <h3 class="demo__card__title title">Title Goes Here</h3>
+                    <p class="demo__card__text text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="demo__img-container img-container">
+                <img
+                  src="./images/demo.png"
+                  alt="img"
+                  class="demo__img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__description">
+          <div class="description">
+            <div class="description__content content">
+              <div class="description__flex-container">
+                <div class="description__card">
+                  <div class="description__img-container img-container">
+                    <img
+                      src="./images/happy_news.png"
+                      alt="img"
+                      class="description__img"
+                    />
+                  </div>
+                  <div class="description__card__text-container">
+                    <h2 class="description__title title">
+                      Light, Fast & Powerful
+                    </h2>
+                    <p class="description__text text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes, nascetur
+                      ridiculus <br />
+                      <br />
+                      mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim.
+                    </p>
+                  </div>
+                </div>
+                <div class="description__card">
+                  <div class="description__img-container img-container">
+                    <img
+                      src="./images/social_influencer.png"
+                      alt="img"
+                      class="description__img"
+                    />
+                  </div>
+                  <div class="description__card__text-container">
+                    <h2 class="description__title title">
+                      Light, Fast & Powerful
+                    </h2>
+                    <p class="description__text text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes, nascetur
+                      ridiculus <br />
+                      <br />
+                      mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim.
+                    </p>
+                  </div>
+                </div>
+                <div class="description__card">
+                  <div class="description__img-container img-container">
+                    <img
+                      src="./images/mention.png"
+                      alt="img"
+                      class="description__img"
+                    />
+                  </div>
+                  <div class="description__card__text-container">
+                    <h2 class="description__title title">
+                      Light, Fast & Powerful
+                    </h2>
+                    <p class="description__text text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes, nascetur
+                      ridiculus <br />
+                      <br />
+                      mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim.
+                    </p>
+                    <button class="description__btn btn btn_black">
+                      Purchase now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__price">
+          <div class="price">
+            <div class="price__content content">
+              <h2 class="price__title title">A Price To Suit Everyone</h2>
+              <p class="price__text text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus<br>
-                <br>
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim.
+                penatibus et magnis dis parturient montes, nascetur ridiculus
               </p>
-              <div class="hero__btns">
-                <a class="btn btn_black">Purchase UI Kit</a>
-                <a class="btn btn_light">Learn More</a>
-              </div>
+              <h2 class="price__title title">$40</h2>
+              <h4 class="price__subtitle subtitle">UI Design Kit</h4>
+              <p class="price__subtitle__text text">
+                See, One price. Simple.
+              </p>
+              <button class="price__btn btn btn_black">Purchase now</button>
             </div>
-          </div>
-        </section>
-        <section class="demo">
-          <div class="demo__content content">
-            <div class="demo__body-container">
-              <div class="demo__text-container">
-                <h2 class="demo__title title">Light, Fast & Powerful</h2>
-                <p class="demo__text text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus <br> <br> mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim.
-                </p>
-              </div>
-              <div class="demo__cards">
-                <div class="demo__card">
-                  <img
-                    class="demo__card__icon"
-                    src="./images/icons/combined_shape.svg"
-                  />
-                  <h3 class="demo__card__title title">Title Goes Here</h3>
-                  <p class="demo__card__text text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-                <div class="demo__card">
-                  <img
-                    class="demo__card__icon"
-                    src="./images/icons/combined_shape.svg"
-                  />
-                  <h3 class="demo__card__title title">Title Goes Here</h3>
-                  <p class="demo__card__text text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="demo__img-container img-container">
-              <img
-                src="./images/demo.png"
-                alt="img"
-                class="demo__img"
-              />
-            </div>
-          </div>
-        </section>
-        <section class="description">
-          <div class="description__content content">
-            <div class="description__flex-container">
-              <div class="description__card">
-                <div class="description__img-container img-container">
-                  <img
-                    src="./images/happy_news.png"
-                    alt="img"
-                    class="description__img"
-                  />
-                </div>
-                <div class="description__card__text-container">
-                  <h2 class="description__title title">Light, Fast & Powerful</h2>
-                  <p class="description__text text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus <br> <br> mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  </p>
-                </div>
-              </div>
-              <div class="description__card">
-                <div class="description__img-container img-container">
-                  <img
-                    src="./images/social_influencer.png"
-                    alt="img"
-                    class="description__img"
-                  />
-                </div>
-                <div class="description__card__text-container">
-                  <h2 class="description__title title">Light, Fast & Powerful</h2>
-                  <p class="description__text text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus <br> <br> mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  </p>
-                </div>
-              </div>
-              <div class="description__card">
-                <div class="description__img-container img-container">
-                  <img
-                    src="./images/mention.png"
-                    alt="img"
-                    class="description__img"
-                  />
-                </div>
-                <div class="description__card__text-container">
-                  <h2 class="description__title title">Light, Fast & Powerful</h2>
-                  <p class="description__text text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus <br> <br> mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  </p>
-                  <a class="description__btn btn btn_black">Purchase now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="price">
-          <div class="price__content content">
-            <h2 class="price__title title">A Price To Suit Everyone</h2>
-            <p class="price__text text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus
-            </p>
-            <h2 class="price__title title">$40</h2>
-            <h4 class="price__subtitle subtitle">UI Design Kit</h4>
-            <p class="price__subtitle__text text">See, One price. Simple.</p>
-            <a class="price__btn btn btn_black">Purchase now</a>
           </div>
         </section>
       </main>
@@ -199,19 +241,28 @@
             <p class="footer__copyright">©2023 Yourcompany</p>
             <h1 class="footer__title title">Landing</h1>
             <div class="footer_btn">
-              <a class="btn btn_black">Purchase now</a>
+              <button class="btn btn_black">Purchase now</button>
             </div>
           </div>
-          <hr class="footer_hr">
+          <hr class="footer_hr" />
           <div class="footer__navigation">
-            <nav class="footer__menu menu">
-              <a class="menu__link" href="/">
+            <nav class="site-navigation">
+              <a
+                class="site-navigation__link"
+                href="/"
+              >
                 Home
               </a>
-              <a class="menu__link" href="/about">
+              <a
+                class="site-navigation__link"
+                href="/about"
+              >
                 About
               </a>
-              <a class="menu__link" href="/contact">
+              <a
+                class="site-navigation__link"
+                href="/contact"
+              >
                 Contact
               </a>
             </nav>
