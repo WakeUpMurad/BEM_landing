@@ -60,7 +60,7 @@ body {
   color: #fff;
 }
 .btn_light {
-  background-color: none;
+  background: none;
   color: #333;
   border: 0.2rem solid black;
 }
@@ -133,7 +133,7 @@ body {
 .hero__btns {
   margin: 1.5rem 0;
 }
-.hero__btns a {
+.hero__btns button {
   width: 12rem;
   height: 2.25rem;
   margin-right: 1.5rem;
